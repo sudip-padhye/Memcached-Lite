@@ -28,7 +28,7 @@ The project supports 3 types of commands:
 ### iii.	Deletion command:
 •	delete
 The storage command accepts input in the format as below:
-> "<command name> <key> <flags> <exptime> <bytes> [noreply] \r\n<value> \r\n"
+> ``<command name> <key> <flags> <exptime> <bytes> [noreply] \r\n<value> \r\n``
 
 The cas command accepts input format as below:
 > cas <key> <flags> <exptime> <bytes> <cas unique> [noreply] \r\n<value> \r\n

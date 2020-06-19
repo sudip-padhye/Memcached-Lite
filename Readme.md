@@ -31,14 +31,14 @@ The storage command accepts input in the format as below:
 > ``<command name> <key> <flags> <exptime> <bytes> [noreply] \r\n<value> \r\n``
 
 The cas command accepts input format as below:
-> cas <key> <flags> <exptime> <bytes> <cas unique> [noreply] \r\n<value> \r\n
+> ``cas <key> <flags> <exptime> <bytes> <cas unique> [noreply] \r\n<value> \r\n``
 
 The retrieval command accepts input format as below:
-> get <key>*\r\n
-> gets <key>*\r\n
+> ``get <key>*\r\n``
+> ``gets <key>*\r\n``
 
 The delete command accepts input format as below:
-> delete <key> [noreply]\r\n
+> ``delete <key> [noreply]\r\n``
 
 Note: This project supports <flags>, <exptime>, <cas unique> & <noreply> command fields. Although the server accepts <exptime>, the implementation of <exptime> is yet to be completed. 
 
